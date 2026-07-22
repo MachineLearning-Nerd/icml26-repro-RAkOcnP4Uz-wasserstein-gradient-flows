@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Optimization",
+  "emoji": "🎯",
+  "space_id": null,
+  "paper": null,
+  "tags": [
+    "icml2026-repro",
+    "paper-RAkOcnP4Uz"
+  ],
+  "updated_at": "2026-07-22T06:05:19+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Optimization",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "overview",
+        "title": "Overview",
+        "file": "pages/overview/page.md",
+        "children": []
+      },
+      {
+        "slug": "claims",
+        "title": "Claims",
+        "file": "pages/claims/page.md",
+        "children": []
+      },
+      {
+        "slug": "evidence",
+        "title": "Evidence",
+        "file": "pages/evidence/page.md",
+        "children": []
+      },
+      {
+        "slug": "verification-run",
+        "title": "Verification run",
+        "file": "pages/verification-run/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 1490,
+  "revision": "1784700319040139997"
+}
