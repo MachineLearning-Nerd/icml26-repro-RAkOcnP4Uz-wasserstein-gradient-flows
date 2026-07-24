@@ -1,0 +1,10 @@
+[project]
+name = "wgf-repro"
+version = "0.1.0"
+description = "Reproduction of Accelerated Multiple Wasserstein Gradient Flows (arXiv 2601.19220)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
