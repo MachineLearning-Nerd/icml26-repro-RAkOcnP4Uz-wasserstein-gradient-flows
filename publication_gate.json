@@ -1,8 +1,17 @@
 {
-  "paper": "RAkOcnP4Uz",
-  "tests_passed": true,
-  "publication_gate_passed": true,
-  "claims_verified": 5,
+  "paper_arxiv": "2601.19220v2",
+  "paper_openreview": "RAkOcnP4Uz",
   "claims_total": 6,
-  "arxiv": "2601.19220"
+  "paper_claims_independently_verified": 0,
+  "scoped_implementation_paths": 6,
+  "publication_gate_passed": false,
+  "status": "INCONCLUSIVE",
+  "reason": "The tracked verdict came from the legacy toy verifier, conflicts with the publication report, and does not provide source-matched raw evidence for the root verify_all.py suite.",
+  "required_before_release": [
+    "Run verify_all.py from a recorded source commit and environment.",
+    "Resolve the strong-convexity numerical failure in Claim 3.",
+    "Reconcile the conflicting Claim 5 results.",
+    "Report Claim 6 as reduced-scope unless the paper-scale datasets and iterations are reproduced.",
+    "Attach raw outputs and an independent checker to the gate."
+  ]
 }

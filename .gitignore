@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 .trackio/runs/
+outputs/*
+!outputs/README.md

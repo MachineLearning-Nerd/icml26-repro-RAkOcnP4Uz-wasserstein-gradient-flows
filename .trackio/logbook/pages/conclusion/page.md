@@ -1,20 +1,19 @@
 # Conclusion
 
-
----
-<!-- trackio-cell
-{"type": "markdown", "id": "cell_523265027634", "created_at": "2026-07-22T06:05:19+00:00", "title": "Executive summary"}
--->
 ## Executive summary
 
-5/6 claim checks PASS for **Accelerated Multiple Wasserstein Gradient Flows for Multi-objective Optimization** (`RAkOcnP4Uz`). Clean-room numpy verification on CPU (<1 min, <100 MB). Each claim verified at full scale with an independent mechanism and negative controls; no toy/proxy results.
+The repository is **INCONCLUSIVE** and the publication gate is **NOT PASSED**.
+The implementation covers six claim paths, but the old 6/6 publication
+statement was based on conflicting artifacts. Claim 3 has a tracked
+strong-convexity failure, Claim 5 has conflicting historical results, and
+Claim 6 is a reduced Multi-MNIST proxy rather than a paper-scale replication.
 
-## Scope & cost
+## Scope
 
-| | This reproduction | Full replication |
-|---|---|---|
-| Scope | all claims, clean-room | same |
-| Hardware | CPU (numpy) | same |
-| Time | <1 min | same |
-| Cost | $0 | $0 |
-| Outcome | verified | — |
+| Item | Current state |
+|---|---|
+| Root implementation | <code>verify_all.py</code> plus the <code>repro/</code> modules |
+| Fresh full-suite run in this audit | Not performed |
+| Historical output | Superseded toy/proxy verifier |
+| Publication gate | Not passed |
+| Required next step | Fresh source-pinned run with raw evidence and independent checks |
